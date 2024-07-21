@@ -14,7 +14,7 @@ def image_to_base64(image_path):
 @st.cache_data
 def load_data():
     ratings = pd.read_csv(r'https://github.com/Sreejareddy7683/movie-recommender/blob/master/ratings.csv')
-    movies = pd.read_csv(r'C:\Users\P Kondal Reddy\OneDrive\Desktop\movie_recommendation_system\movies.csv')
+    movies = pd.read_csv(r'https://github.com/Sreejareddy7683/movie-recommender/blob/master/movies.csv')
     return ratings, movies
 
 @st.cache_data
